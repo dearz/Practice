@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.healthcare.supcon.com/wsmeddoc/" xmlns:s1="http://www.healthcare.supcon.com/wsmeddoc/AbstractTypes" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://www.healthcare.supcon.com/wsmeddoc/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.healthcare.supcon.com/wsmeddoc/">
+      <s:element name="GetDocInfos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="szPatientID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="szVisitID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="szVisitType" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dtVisitTime" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="szDocTypeID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="lstDocInfos" type="tns:ArrayOfMedDocInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMedDocInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="MedDocInfo" nillable="true" type="tns:MedDocInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MedDocInfo">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DbTypeBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="DocContent" type="tns:ArrayOfString" />
+              <s:element minOccurs="0" maxOccurs="1" name="DocID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DocTypeID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DocTitle" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DocTime" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="DocSetID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DocVersion" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreatorID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CreatorName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifierID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ModifierName" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ModifyTime" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="PatientID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PatientName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="VisitID" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="VisitTime" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="VisitType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeptCode" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DeptName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SignCode" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ConfidCode" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="OrderValue" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="NeedCombin" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="FileType" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FilePath" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="RecordTime" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="StatusDesc" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="RequestSignDate" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="ParentSignDate" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="SuperSignDate" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="TempletID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrintAuditorGrade" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrintAuditorID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="PrintAuditorName" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DbTypeBase">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="DefaultTime" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="NumberConditionInfo">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DbTypeBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="LowerValue" type="s:float" />
+              <s:element minOccurs="1" maxOccurs="1" name="UpperValue" type="s:float" />
+              <s:element minOccurs="1" maxOccurs="1" name="LowerOpreator" type="tns:OpreatorType" />
+              <s:element minOccurs="1" maxOccurs="1" name="UpperOpreator" type="tns:OpreatorType" />
+              <s:element minOccurs="0" maxOccurs="1" name="ConditionDesc" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="OpreatorType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Min" />
+          <s:enumeration value="MinEqual" />
+          <s:enumeration value="Max" />
+          <s:enumeration value="MaxEqual" />
+          <s:enumeration value="Equal" />
+          <s:enumeration value="NoEqual" />
+          <s:enumeration value="None" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="DateConditionInfo">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DbTypeBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="LowerDate" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="UpperDate" type="s:dateTime" />
+              <s:element minOccurs="1" maxOccurs="1" name="LowerOpreator" type="tns:OpreatorType" />
+              <s:element minOccurs="1" maxOccurs="1" name="UpperOpreator" type="tns:OpreatorType" />
+              <s:element minOccurs="0" maxOccurs="1" name="ConditionDesc" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="BasicCondition">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DbTypeBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ElementID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ElementName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Alias" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="DataType" type="tns:DataType" />
+              <s:element minOccurs="0" maxOccurs="1" name="ParagraphName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ElementValue" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DateConInfo" type="tns:DateConditionInfo" />
+              <s:element minOccurs="0" maxOccurs="1" name="NumberConInfo" type="tns:NumberConditionInfo" />
+              <s:element minOccurs="1" maxOccurs="1" name="ElementType" type="tns:ElementType" />
+              <s:element minOccurs="0" maxOccurs="1" name="ConditionDesc" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="DataType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Text" />
+          <s:enumeration value="Number" />
+          <s:enumeration value="DateTime" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="ElementType">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Outline" />
+          <s:enumeration value="InputBox" />
+          <s:enumeration value="SimpleOption" />
+          <s:enumeration value="ComplexOption" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="FullTextSearchCondition">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DbTypeBase">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="DocSearchType" type="tns:SearchType" />
+              <s:element minOccurs="0" maxOccurs="1" name="ParagraphName" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="SearchType">
+        <s:restriction base="s:string">
+          <s:enumeration value="AndSearch" />
+          <s:enumeration value="OrSearch" />
+          <s:enumeration value="BOOLSearch" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ComplexCondition">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:DbTypeBase">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="ParagraphName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ComplexElementID" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ComplexElementName" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SelectedItem" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="ElementText" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="CurrentIdx" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="ComConDesc" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetDocInfosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetDocInfosResult" type="s:short" />
+            <s:element minOccurs="0" maxOccurs="1" name="lstDocInfos" type="tns:ArrayOfMedDocInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertToHTML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="szPatientID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="szVisitID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="arrDocIDs" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertToHTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConvertToHTMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocsHTML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="arrDocIDs" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocsHTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDocsHTMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+    <s:schema targetNamespace="http://www.healthcare.supcon.com/wsmeddoc/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDocInfosSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocInfos" />
+  </wsdl:message>
+  <wsdl:message name="GetDocInfosSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocInfosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToHTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertToHTML" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToHTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertToHTMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocsHTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocsHTML" />
+  </wsdl:message>
+  <wsdl:message name="GetDocsHTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocsHTMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToHTMLHttpGetIn">
+    <wsdl:part name="szPatientID" type="s:string" />
+    <wsdl:part name="szVisitID" type="s:string" />
+    <wsdl:part name="arrDocIDs" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToHTMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDocsHTMLHttpGetIn">
+    <wsdl:part name="arrDocIDs" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="GetDocsHTMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToHTMLHttpPostIn">
+    <wsdl:part name="szPatientID" type="s:string" />
+    <wsdl:part name="szVisitID" type="s:string" />
+    <wsdl:part name="arrDocIDs" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="ConvertToHTMLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDocsHTMLHttpPostIn">
+    <wsdl:part name="arrDocIDs" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="GetDocsHTMLHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="DocServiceSoap">
+    <wsdl:operation name="GetDocInfos">
+      <wsdl:input message="tns:GetDocInfosSoapIn" />
+      <wsdl:output message="tns:GetDocInfosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToHTML">
+      <wsdl:input message="tns:ConvertToHTMLSoapIn" />
+      <wsdl:output message="tns:ConvertToHTMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocsHTML">
+      <wsdl:input message="tns:GetDocsHTMLSoapIn" />
+      <wsdl:output message="tns:GetDocsHTMLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DocServiceHttpGet">
+    <wsdl:operation name="ConvertToHTML">
+      <wsdl:input message="tns:ConvertToHTMLHttpGetIn" />
+      <wsdl:output message="tns:ConvertToHTMLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocsHTML">
+      <wsdl:input message="tns:GetDocsHTMLHttpGetIn" />
+      <wsdl:output message="tns:GetDocsHTMLHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="DocServiceHttpPost">
+    <wsdl:operation name="ConvertToHTML">
+      <wsdl:input message="tns:ConvertToHTMLHttpPostIn" />
+      <wsdl:output message="tns:ConvertToHTMLHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocsHTML">
+      <wsdl:input message="tns:GetDocsHTMLHttpPostIn" />
+      <wsdl:output message="tns:GetDocsHTMLHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DocServiceSoap" type="tns:DocServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDocInfos">
+      <soap:operation soapAction="http://www.healthcare.supcon.com/wsmeddoc/GetDocInfos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToHTML">
+      <soap:operation soapAction="http://www.healthcare.supcon.com/wsmeddoc/ConvertToHTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocsHTML">
+      <soap:operation soapAction="http://www.healthcare.supcon.com/wsmeddoc/GetDocsHTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DocServiceSoap12" type="tns:DocServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDocInfos">
+      <soap12:operation soapAction="http://www.healthcare.supcon.com/wsmeddoc/GetDocInfos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertToHTML">
+      <soap12:operation soapAction="http://www.healthcare.supcon.com/wsmeddoc/ConvertToHTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocsHTML">
+      <soap12:operation soapAction="http://www.healthcare.supcon.com/wsmeddoc/GetDocsHTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DocServiceHttpGet" type="tns:DocServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="ConvertToHTML">
+      <http:operation location="/ConvertToHTML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocsHTML">
+      <http:operation location="/GetDocsHTML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="DocServiceHttpPost" type="tns:DocServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="ConvertToHTML">
+      <http:operation location="/ConvertToHTML" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocsHTML">
+      <http:operation location="/GetDocsHTML" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DocService">
+    <wsdl:port name="DocServiceSoap" binding="tns:DocServiceSoap">
+      <soap:address location="http://10.10.76.72/MDSERVICE/DocService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DocServiceSoap12" binding="tns:DocServiceSoap12">
+      <soap12:address location="http://10.10.76.72/MDSERVICE/DocService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DocServiceHttpGet" binding="tns:DocServiceHttpGet">
+      <http:address location="http://10.10.76.72/MDSERVICE/DocService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="DocServiceHttpPost" binding="tns:DocServiceHttpPost">
+      <http:address location="http://10.10.76.72/MDSERVICE/DocService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

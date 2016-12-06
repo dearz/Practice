@@ -1,0 +1,21 @@
+H:\zsh\Codes\Personal\LoginTest\LoginTest\obj\Debug\ResolveAssemblyReference.cache
+H:\zsh\Codes\Personal\LoginTest\LoginTest\bin\Debug\LoginTest.exe
+H:\zsh\Codes\Personal\LoginTest\LoginTest\bin\Debug\LoginTest.pdb
+H:\zsh\Codes\Personal\LoginTest\LoginTest\obj\Debug\LoginTest.exe
+H:\zsh\Codes\Personal\LoginTest\LoginTest\obj\Debug\LoginTest.pdb
+H:\zsh\Codes\Personal\LoginTest\LoginTest\obj\Debug\LoginTest.LoginForm.resources
+H:\zsh\Codes\Personal\LoginTest\LoginTest\obj\Debug\LoginTest.csproj.GenerateResource.Cache
+H:\zsh\Codes\Personal\LoginTest\LoginTest\obj\Debug\LoginTest.MainForm.resources
+E:\Personl Documents\Codes\LoginTest\LoginTest\obj\Debug\LoginTest.exe
+E:\Personl Documents\Codes\LoginTest\LoginTest\obj\Debug\LoginTest.pdb
+E:\Personl Documents\Codes\Practice\LoginTest\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\LoginTest\obj\Debug\LoginTest.LoginForm.resources
+E:\Personl Documents\Codes\Practice\LoginTest\obj\Debug\LoginTest.MainForm.resources
+E:\Personl Documents\Codes\Practice\LoginTest\obj\Debug\LoginTest.csproj.GenerateResource.Cache
+E:\Personl Documents\Codes\Practice\LoginTest\obj\Debug\LoginTest.exe
+E:\Personl Documents\Codes\Practice\LoginTest\obj\Debug\LoginTest.pdb
+F:\Codes\Practice\LoginTest\obj\Debug\LoginTest.csprojResolveAssemblyReference.cache
+F:\Codes\Practice\LoginTest\obj\Debug\LoginTest.LoginForm.resources
+F:\Codes\Practice\LoginTest\obj\Debug\LoginTest.MainForm.resources
+F:\Codes\Practice\LoginTest\obj\Debug\LoginTest.csproj.GenerateResource.Cache
+F:\Codes\Practice\LoginTest\obj\Debug\LoginTest.exe

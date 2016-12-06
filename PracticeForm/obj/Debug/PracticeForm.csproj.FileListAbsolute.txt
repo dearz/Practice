@@ -1,0 +1,38 @@
+H:\zsh\Codes\Personal\Practice\PracticeForm\bin\Debug\PracticeForm.exe
+H:\zsh\Codes\Personal\Practice\PracticeForm\bin\Debug\PracticeForm.pdb
+H:\zsh\Codes\Personal\Practice\PracticeForm\obj\Debug\ResolveAssemblyReference.cache
+H:\zsh\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.Form1.resources
+H:\zsh\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.Properties.Resources.resources
+H:\zsh\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.csproj.GenerateResource.Cache
+H:\zsh\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.exe
+H:\zsh\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.pdb
+H:\zsh\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.MyTestForm.resources
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\bin\Debug\PracticeForm.exe
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\bin\Debug\PracticeForm.pdb
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.Form1.resources
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.MyTestForm.resources
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.Properties.Resources.resources
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.csproj.GenerateResource.Cache
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.exe
+E:\Personl Documents\Codes\Personal\Practice\PracticeForm\obj\Debug\PracticeForm.pdb
+E:\Personl Documents\Codes\Practice\PracticeForm\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.Form1.resources
+E:\Personl Documents\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.Properties.Resources.resources
+E:\Personl Documents\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.csproj.GenerateResource.Cache
+E:\Personl Documents\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.exe
+E:\Personl Documents\Codes\Practice\PracticeForm\bin\Debug\PracticeForm.exe
+E:\Personl Documents\Codes\Practice\PracticeForm\bin\Debug\PracticeForm.pdb
+E:\Personl Documents\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.pdb
+E:\Personl Documents\Codes\Practice\PracticeForm\bin\Debug\MicroZH.Windows.Forms.dll
+E:\Personl Documents\Codes\Practice\PracticeForm\bin\Debug\PracticeForm.exe.config
+F:\Codes\Practice\PracticeForm\bin\Debug\PracticeForm.exe.config
+F:\Codes\Practice\PracticeForm\bin\Debug\PracticeForm.exe
+F:\Codes\Practice\PracticeForm\bin\Debug\PracticeForm.pdb
+F:\Codes\Practice\PracticeForm\bin\Debug\MicroZH.Windows.Forms.dll
+F:\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.csprojResolveAssemblyReference.cache
+F:\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.Form1.resources
+F:\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.Properties.Resources.resources
+F:\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.csproj.GenerateResource.Cache
+F:\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.exe
+F:\Codes\Practice\PracticeForm\obj\Debug\PracticeForm.pdb

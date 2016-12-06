@@ -1,0 +1,16 @@
+E:\Personl Documents\Codes\Practice\TestProgram\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\TestProgram\obj\Debug\TestProgram.Properties.Resources.resources
+E:\Personl Documents\Codes\Practice\TestProgram\obj\Debug\TestProgram.csproj.GenerateResource.Cache
+E:\Personl Documents\Codes\Practice\TestProgram\bin\Debug\TestProgram.exe
+E:\Personl Documents\Codes\Practice\TestProgram\bin\Debug\TestProgram.pdb
+E:\Personl Documents\Codes\Practice\TestProgram\obj\Debug\TestProgram.exe
+E:\Personl Documents\Codes\Practice\TestProgram\obj\Debug\TestProgram.pdb
+E:\Personl Documents\Codes\Practice\TestProgram\obj\Debug\TestProgram.Form1.resources
+F:\Codes\Practice\TestProgram\bin\Debug\TestProgram.exe
+F:\Codes\Practice\TestProgram\bin\Debug\TestProgram.pdb
+F:\Codes\Practice\TestProgram\obj\Debug\TestProgram.csprojResolveAssemblyReference.cache
+F:\Codes\Practice\TestProgram\obj\Debug\TestProgram.Form1.resources
+F:\Codes\Practice\TestProgram\obj\Debug\TestProgram.Properties.Resources.resources
+F:\Codes\Practice\TestProgram\obj\Debug\TestProgram.csproj.GenerateResource.Cache
+F:\Codes\Practice\TestProgram\obj\Debug\TestProgram.exe
+F:\Codes\Practice\TestProgram\obj\Debug\TestProgram.pdb

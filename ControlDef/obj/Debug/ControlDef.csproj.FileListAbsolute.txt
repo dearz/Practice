@@ -1,0 +1,9 @@
+E:\Personl Documents\Codes\Practice\ControlDef\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\ControlDef\bin\Debug\ControlDef.dll
+E:\Personl Documents\Codes\Practice\ControlDef\bin\Debug\ControlDef.pdb
+E:\Personl Documents\Codes\Practice\ControlDef\obj\Debug\ControlDef.dll
+E:\Personl Documents\Codes\Practice\ControlDef\obj\Debug\ControlDef.pdb
+F:\Codes\Practice\ControlDef\bin\Debug\ControlDef.dll
+F:\Codes\Practice\ControlDef\bin\Debug\ControlDef.pdb
+F:\Codes\Practice\ControlDef\obj\Debug\ControlDef.dll
+F:\Codes\Practice\ControlDef\obj\Debug\ControlDef.pdb

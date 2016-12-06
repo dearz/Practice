@@ -1,0 +1,33 @@
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\MyProgram.exe.config
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\MyProgram.exe
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\MyProgram.pdb
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\AxInterop.grproLib.dll
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\Interop.grproLib.dll
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\RegisterGridReport.dll
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\MyWinFormProgram.csproj.ResolveComReference.cache
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.MainForm.resources
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.Properties.Resources.resources
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.Reports.PreviewForm.resources
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\MyWinFormProgram.csproj.GenerateResource.Cache
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.exe
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.pdb
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\ControlDef.dll
+E:\Personl Documents\Codes\Practice\MyWinFormProgam\bin\Debug\ControlDef.pdb
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\MyProgram.exe.config
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\MyProgram.exe
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\MyProgram.pdb
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\AxInterop.grproLib.dll
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\ControlDef.dll
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\Interop.grproLib.dll
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\RegisterGridReport.dll
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\stdole.dll
+F:\Codes\Practice\MyWinFormProgam\bin\Debug\ControlDef.pdb
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyWinFormProgram.csprojResolveAssemblyReference.cache
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyWinFormProgram.csproj.ResolveComReference.cache
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.MainForm.resources
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.Properties.Resources.resources
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.Reports.PreviewForm.resources
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyWinFormProgram.csproj.GenerateResource.Cache
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.exe
+F:\Codes\Practice\MyWinFormProgam\obj\Debug\MyProgram.pdb

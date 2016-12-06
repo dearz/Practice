@@ -1,0 +1,5 @@
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\bin\Debug\MyProgramConsoleApplication.exe
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\bin\Debug\MyProgramConsoleApplication.pdb
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\obj\Debug\MyProgramConsoleApplication.exe
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\obj\Debug\MyProgramConsoleApplication.pdb

@@ -1,0 +1,12 @@
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\obj\Debug\MyProgramConsoleApplication.exe
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\obj\Debug\MyProgramConsoleApplication.pdb
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\bin\Debug\MyProgramConsoleApplication.exe
+E:\Personl Documents\Codes\Practice\MyProgramConsoleApplication\bin\Debug\MyProgramConsoleApplication.pdb
+E:\Personl Documents\Codes\Practice\MyConsoleApplicationProgram\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\MyConsoleApplicationProgram\obj\Debug\MyProgramConsoleApplication.exe
+E:\Personl Documents\Codes\Practice\MyConsoleApplicationProgram\bin\Debug\MyProgramConsoleApplication.exe
+E:\Personl Documents\Codes\Practice\MyConsoleApplicationProgram\bin\Debug\MyProgramConsoleApplication.pdb
+E:\Personl Documents\Codes\Practice\MyConsoleApplicationProgram\obj\Debug\MyProgramConsoleApplication.pdb
+F:\Codes\Practice\MyConsoleApplicationProgram\obj\Debug\MyConsoleApplicationProgram.csprojResolveAssemblyReference.cache
+F:\Codes\Practice\MyConsoleApplicationProgram\obj\Debug\MyProgramConsoleApplication.exe

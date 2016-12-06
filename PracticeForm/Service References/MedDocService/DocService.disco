@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://10.10.76.72/MDSERVICE/DocService.asmx?wsdl" docRef="http://10.10.76.72/MDSERVICE/DocService.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://10.10.76.72/MDSERVICE/DocService.asmx" xmlns:q1="http://www.healthcare.supcon.com/wsmeddoc/" binding="q1:DocServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://10.10.76.72/MDSERVICE/DocService.asmx" xmlns:q2="http://www.healthcare.supcon.com/wsmeddoc/" binding="q2:DocServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

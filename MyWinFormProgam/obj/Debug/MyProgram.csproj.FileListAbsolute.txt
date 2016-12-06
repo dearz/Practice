@@ -1,0 +1,14 @@
+E:\Personl Documents\Codes\Practice\MyProgam\bin\Debug\MyProgram.exe.config
+E:\Personl Documents\Codes\Practice\MyProgam\bin\Debug\MyProgram.exe
+E:\Personl Documents\Codes\Practice\MyProgam\bin\Debug\MyProgram.pdb
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\ResolveAssemblyReference.cache
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\MyProgram.MainForm.resources
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\MyProgram.Properties.Resources.resources
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\MyProgram.csproj.GenerateResource.Cache
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\MyProgram.exe
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\MyProgram.pdb
+E:\Personl Documents\Codes\Practice\MyProgam\bin\Debug\AxInterop.grproLib.dll
+E:\Personl Documents\Codes\Practice\MyProgam\bin\Debug\Interop.grproLib.dll
+E:\Personl Documents\Codes\Practice\MyProgam\bin\Debug\RegisterGridReport.dll
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\MyProgram.csproj.ResolveComReference.cache
+E:\Personl Documents\Codes\Practice\MyProgam\obj\Debug\MyProgram.Reports.PreviewForm.resources
